@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+root{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    padding:10px;
+    background-color:skyblue;
+}
+.container{
+     padding: 10px; 
+}
+.softcontainer{
+    width: 25%;
+    border-radius: 5px;
+    background-color:skyblue;
+    color:black;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    font-size: 22px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.softcontainer button{
+    border-radius: 10px;
+    background-color:black;
+    color:white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#plusbtn{
+    border-radius: 100%;
+    background-color: skyblue;
+    font-size:60px;
+    padding: 20px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.overlay{
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display:none;
+}
+.popup{
+    background-color: skyblue;
+    
+    width:40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    display:none;
+
+}
+.popup input{
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color:skyblue;
+    color:black;
+    background: transparent;
+    width: 100%;
+    font-size: 18px;
+    
+   
+}
+.popup textarea{
+    padding: 20px 10px;
+    margin: 5px;
+    color: black;
+    
+    background: transparent;
+    border: 2px solid black;
+    width: 100%;
+    font-size: 18px;
+    
+}
+.popup input::placeholder{
+    color:black;
+   
+   
+}
+.popup textarea::placeholder{
+    color: black;
+}
+.popup input:focus{
+    outline: none;
+}
+.popup textarea:focus{
+    outline: none;
+}
+#addbtn{
+    border-radius: 10px;
+    background-color:black;
+    color:white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 20px;
+
+}
+#cancelbtn{
+    border-radius: 10px;
+    background-color:black;
+    color:white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+
+}
+
+
+
+
+   
